@@ -1,0 +1,10 @@
+.backgroundColor{
+	-fx-background-color: linear-gradient(to left,#61D8DE,#E839F6);
+}
+.backgroundColorMenu{
+	-fx-background-color: #607D8B;
+}
+.backgroundColorMaltInterfaceTab{
+	-fx-background-color: #C5C5D8;
+}
+
