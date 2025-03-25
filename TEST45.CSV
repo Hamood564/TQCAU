@@ -1,0 +1,577 @@
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.209 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.251 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.251 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.253 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.253 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.255 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.296 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.296 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.299 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.299 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.304 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.345 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:51:15.345 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.345 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.388 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.388 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.388 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.390 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.390 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.395 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.399 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.399 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.436 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.436 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.436 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.479 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.479 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.481 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.481 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.483 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.524 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:51:15.524 : File downloaded
+INFO [ftpapp.FileManager] 12 Aug 2024 13:51:15.524 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.524 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.526 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.526 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.531 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.573 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.573 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.573 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.574 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.140 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.183 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.183 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.185 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.185 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.187 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.229 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.229 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.232 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.232 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.237 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.278 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:58:52.278 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.278 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.320 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.320 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.320 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.322 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.322 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.326 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.330 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.330 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.366 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.366 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.367 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.408 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.408 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.410 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.410 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.411 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.452 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:58:52.452 : File downloaded
+INFO [ftpapp.FileManager] 12 Aug 2024 13:58:52.452 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.453 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.454 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.454 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.459 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.499 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.499 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.500 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.501 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.710 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.716 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.716 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.717 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.717 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.758 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.759 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.760 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.760 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.761 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.801 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.803 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.804 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.804 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.810 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.850 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:22:35.851 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.851 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.892 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.893 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.893 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.895 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.895 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.899 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.903 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.904 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.940 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.940 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.941 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.982 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.982 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.984 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.984 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.985 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.025 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:22:36.026 : File downloaded
+INFO [ftpapp.FileManager] 12 Aug 2024 14:22:36.026 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.026 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.027 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.028 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.032 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.073 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:36.073 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.074 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.074 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.917 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.923 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.923 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.925 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.925 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.967 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.967 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.969 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.969 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.970 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.011 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.012 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.015 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.015 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.021 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.062 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:41:45.062 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.062 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.104 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.104 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.105 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.106 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.106 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.111 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.115 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.115 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.152 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.152 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.152 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.196 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.196 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.198 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.198 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.199 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.240 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:41:45.240 : File downloaded
+INFO [ftpapp.FileManager] 12 Aug 2024 14:41:45.240 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.241 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.243 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.243 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.249 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.290 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:45.290 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.290 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.292 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.440 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.445 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.445 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.446 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.447 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.489 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.489 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.491 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.491 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.492 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.534 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.536 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.537 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.537 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.542 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.584 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:42:08.584 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.584 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.627 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.628 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.628 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.630 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.630 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.634 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.638 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.638 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.674 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.675 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.675 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.718 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.718 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.719 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.719 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.720 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.761 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:42:08.762 : File downloaded
+INFO [ftpapp.FileManager] 12 Aug 2024 14:42:08.762 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.762 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.764 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.764 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.769 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.810 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.811 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.811 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.812 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.019 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.024 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.025 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.027 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.027 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.069 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.069 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.071 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.071 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.072 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.113 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.114 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.115 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.115 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.120 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.161 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 08:39:10.162 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.162 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.203 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.204 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.204 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.206 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.206 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.210 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.214 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.214 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.250 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.250 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.251 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.292 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.293 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.294 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.294 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.295 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.337 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 08:39:10.337 : File downloaded
+INFO [ftpapp.FileManager] 14 Aug 2024 08:39:10.337 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.338 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.339 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.339 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.344 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.385 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:10.386 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.386 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.387 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.028 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.034 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.034 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.035 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.035 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.077 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.078 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.079 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,132).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.079 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.080 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.122 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.123 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.124 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,132).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.124 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.129 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.170 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 09:42:16.171 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.171 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.212 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.213 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.213 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.215 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,132).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.215 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.219 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.223 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.224 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.260 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.260 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.260 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.303 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.303 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.305 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,132).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.305 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.307 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.348 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 09:42:16.348 : File downloaded
+INFO [ftpapp.FileManager] 14 Aug 2024 09:42:16.348 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.349 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.351 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,132).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.351 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.357 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.398 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 09:42:16.398 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.398 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:42:16.399 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.308 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.314 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.314 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.315 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.315 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.358 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.358 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.360 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,134).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.360 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.361 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.402 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.403 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.405 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,134).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.405 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.410 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.450 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 09:43:26.451 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.451 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.492 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.493 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.493 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.494 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,134).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.494 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.498 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.502 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.503 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.540 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.540 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.540 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.583 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.583 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.585 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,134).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.585 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.586 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.627 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 09:43:26.628 : File downloaded
+INFO [ftpapp.FileManager] 14 Aug 2024 09:43:26.628 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.628 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.630 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,134).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.630 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.635 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.677 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 09:43:26.678 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.678 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:26.679 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.707 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.713 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.713 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.714 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.714 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.756 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.756 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.758 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,136).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.758 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.759 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.800 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.802 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.804 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,136).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.804 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.809 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.849 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 09:43:42.850 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.850 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.890 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.891 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.891 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.893 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,136).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.893 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.897 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.901 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.902 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.939 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.939 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.939 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.984 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.984 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.985 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,136).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.985 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:42.987 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:43.028 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 09:43:43.029 : File downloaded
+INFO [ftpapp.FileManager] 14 Aug 2024 09:43:43.029 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:43.029 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:43.030 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,136).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:43.030 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:43.035 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:43.075 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 09:43:43.076 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:43.076 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:43.077 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.399 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.404 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.404 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.406 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.406 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.448 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.448 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.450 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,138).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.450 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.451 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.492 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.493 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.495 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,138).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.495 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.500 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.540 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 09:43:58.540 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.540 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.582 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.583 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.583 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.585 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,138).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.585 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.589 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.593 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.593 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.629 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.629 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.629 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.672 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.672 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.674 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,138).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.674 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.675 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.716 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 09:43:58.716 : File downloaded
+INFO [ftpapp.FileManager] 14 Aug 2024 09:43:58.716 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.717 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.719 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,138).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.719 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.725 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.766 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 09:43:58.766 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.766 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 09:43:58.767 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.440 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.446 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.446 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.448 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.448 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.491 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.491 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.493 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,140).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.493 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.495 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.536 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.537 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.539 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,140).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.539 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.544 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.586 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 10:03:26.586 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.586 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.629 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.629 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.630 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.632 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,140).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.632 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.636 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.641 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.641 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.677 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.677 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.677 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.724 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.725 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.727 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,140).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.727 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.729 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.770 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 10:03:26.770 : File downloaded
+INFO [ftpapp.FileManager] 14 Aug 2024 10:03:26.771 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.771 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.773 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,140).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.773 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.778 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.819 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 10:03:26.819 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.819 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:03:26.821 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.853 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.858 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.858 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.859 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.860 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.901 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.901 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.902 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,142).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.902 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.903 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.943 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.944 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.946 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,142).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.946 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.951 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.991 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 10:06:14.991 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:14.991 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.032 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.033 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.033 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.034 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,142).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.034 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.039 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.042 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.043 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.079 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.079 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.079 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.122 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.122 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.124 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,142).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.124 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.126 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.166 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 10:06:15.167 : File downloaded
+INFO [ftpapp.FileManager] 14 Aug 2024 10:06:15.167 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.167 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.169 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,142).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.169 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.174 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.215 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 10:06:15.215 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.215 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 10:06:15.216 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.345 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.350 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.350 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.351 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.352 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.393 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.393 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.395 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,10).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.395 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.396 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.436 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.438 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.439 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,10).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.439 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.444 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.485 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 28 Aug 2024 10:45:03.485 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.485 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.528 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.529 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.529 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.531 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,10).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.531 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.536 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.539 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.540 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.577 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.577 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.577 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.620 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.620 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.622 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,10).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.622 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.624 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.664 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 28 Aug 2024 10:45:03.665 : File downloaded
+INFO [ftpapp.FileManager] 28 Aug 2024 10:45:03.665 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.665 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.667 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,10).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.667 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.672 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.713 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 28 Aug 2024 10:45:03.713 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.713 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 28 Aug 2024 10:45:03.714 : Reply received: 221 Service closing control connection.

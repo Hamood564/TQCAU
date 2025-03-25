@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="876.0" styleClass="backgroundColor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="display.Controller">
+   <children>
+      <HBox layoutX="-6.0" prefHeight="28.0" prefWidth="600.0" spacing="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <MenuBar minHeight="-Infinity" prefHeight="30.0" prefWidth="600.0" styleClass="backgroundColorMenu" stylesheets="@style.css" HBox.hgrow="ALWAYS">
+              <menus>
+                <Menu mnemonicParsing="false" style="-fx-background-color: #607D8B;" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#connectMALT" text="Listen" />
+                        <MenuItem mnemonicParsing="false" text="Exit" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" style="-fx-background-color: #607D8B;" text="Commands">
+                  <items>
+                        <Menu mnemonicParsing="false" text="Logging">
+                          <items>
+                            <MenuItem mnemonicParsing="false" text="UDP Log" />
+                              <MenuItem mnemonicParsing="false" text="Serial Log" />
+                              <MenuItem mnemonicParsing="false" text="No Log" />
+                          </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Logging Priority">
+                          <items>
+                            <MenuItem mnemonicParsing="false" text="Low" />
+                              <MenuItem mnemonicParsing="false" text="Medium" />
+                              <MenuItem mnemonicParsing="false" text="High" />
+                          </items>
+                        </Menu>
+                    <MenuItem mnemonicParsing="false" text="Show Options" />
+                        <MenuItem mnemonicParsing="false" text="Set Date/Time" />
+                        <MenuItem mnemonicParsing="false" text="Reboot MALT" />
+                  </items>
+                </Menu>
+              </menus>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </MenuBar>
+         </children>
+      </HBox>
+      <TabPane layoutY="30.0" opacity="0.8" prefHeight="188.0" prefWidth="698.0" styleClass="backgroundColorMaltInterfaceTab" stylesheets="@style.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <tabs>
+          <Tab text="MALT Interface">
+               <content>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="hostTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="120.0" StackPane.alignment="CENTER_LEFT">
+                           <StackPane.margin>
+                              <Insets bottom="30.0" left="50.0" />
+                           </StackPane.margin>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </TextField>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Host" StackPane.alignment="CENTER_LEFT">
+                           <StackPane.margin>
+                              <Insets bottom="30.0" left="20.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <TextField fx:id="portTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="120.0" StackPane.alignment="BOTTOM_LEFT">
+                           <StackPane.margin>
+                              <Insets bottom="50.0" left="50.0" />
+                           </StackPane.margin>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </TextField>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Port" StackPane.alignment="BOTTOM_LEFT">
+                           <StackPane.margin>
+                              <Insets bottom="50.0" left="20.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <Button mnemonicParsing="false" onAction="#maltReset" prefHeight="30.0" prefWidth="84.0" text="Reset Test">
+                           <StackPane.margin>
+                              <Insets bottom="50.0" left="-250.0" />
+                           </StackPane.margin>
+                        </Button>
+                        <ChoiceBox fx:id="testIndexField" prefHeight="30.0" prefWidth="100.0">
+                           <StackPane.margin>
+                              <Insets bottom="120.0" left="-50.0" />
+                           </StackPane.margin>
+                        </ChoiceBox>
+                        <Button mnemonicParsing="false" onAction="#maltStart" prefHeight="30.0" prefWidth="82.0" text="Start Test" StackPane.alignment="CENTER">
+                           <StackPane.margin>
+                              <Insets bottom="120.0" left="-250.0" />
+                           </StackPane.margin>
+                        </Button>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="TestId">
+                           <StackPane.margin>
+                              <Insets bottom="-90.0" left="-300.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Test Pressure">
+                           <StackPane.margin>
+                              <Insets bottom="-140.0" left="-265.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <TextField fx:id="TestIdField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="90.0">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <StackPane.margin>
+                              <Insets bottom="-90.0" left="-90.0" />
+                           </StackPane.margin>
+                        </TextField>
+                        <TextField fx:id="TestPressureField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="91.0">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <StackPane.margin>
+                              <Insets bottom="-140.0" left="-90.0" />
+                           </StackPane.margin>
+                        </TextField>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fill Time">
+                           <StackPane.margin>
+                              <Insets bottom="60.0" left="120.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Stabilisation Time">
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="120.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Isolation Delay">
+                           <StackPane.margin>
+                              <Insets bottom="-40.0" left="120.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Measure Time">
+                           <StackPane.margin>
+                              <Insets bottom="-90.0" left="120.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evacuation Time">
+                           <StackPane.margin>
+                              <Insets bottom="-140.0" left="120.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <TextField fx:id="FillTimeField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="90.0">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <StackPane.margin>
+                              <Insets bottom="60.0" left="320.0" />
+                           </StackPane.margin>
+                        </TextField>
+                        <TextField fx:id="StabTimeField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="90.0">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="320.0" />
+                           </StackPane.margin>
+                        </TextField>
+                        <TextField fx:id="IsolDelayField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="90.0">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <StackPane.margin>
+                              <Insets bottom="-40.0" left="320.0" />
+                           </StackPane.margin>
+                        </TextField>
+                        <TextField fx:id="MeasureTimeField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="90.0">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <StackPane.margin>
+                              <Insets bottom="-90.0" left="320.0" />
+                           </StackPane.margin>
+                        </TextField>
+                        <TextField fx:id="EvacTimeField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="90.0">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <StackPane.margin>
+                              <Insets bottom="-140.0" left="320.0" />
+                           </StackPane.margin>
+                        </TextField>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Alarm Leak Rate">
+                           <StackPane.margin>
+                              <Insets bottom="60.0" left="550.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Alarm Diff Pressure">
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="550.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <TextField fx:id="LeakRateField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="90.0">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <StackPane.margin>
+                              <Insets bottom="60.0" left="750.0" />
+                           </StackPane.margin>
+                        </TextField>
+                        <TextField fx:id="DiffPressureField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="90.0">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="750.0" />
+                           </StackPane.margin>
+                        </TextField>
+                        <Button fx:id="saveSettingbtn" mnemonicParsing="false" onAction="#saveSetting" text="Save Setting">
+                           <StackPane.margin>
+                              <Insets bottom="-60.0" left="650.0" />
+                           </StackPane.margin>
+                        </Button>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Test Number">
+                           <StackPane.margin>
+                              <Insets bottom="-40.0" left="-300.0" />
+                           </StackPane.margin>
+                        </Text>
+                        <TextField fx:id="TestNumberField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="90.0">
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                           <StackPane.margin>
+                              <Insets bottom="-40.0" left="-90.0" />
+                           </StackPane.margin>
+                        </TextField>
+                     </children>
+                  </StackPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="14.0" layoutY="226.0" opacity="0.9" prefHeight="289.0" prefWidth="670.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="230.0">
+         <content>
+            <TableView fx:id="resulttable">
+              <columns>
+                <TableColumn fx:id="configuration" prefWidth="417.0" text="Configuration" />
+                <TableColumn fx:id="result" prefWidth="426.0" text="Result" />
+              </columns>
+            </TableView>
+         </content></ScrollPane>
+   </children>
+</AnchorPane>

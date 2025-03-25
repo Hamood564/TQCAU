@@ -1,0 +1,1602 @@
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.305 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.306 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.349 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.349 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.351 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.351 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.353 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.394 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.394 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.394 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.394 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.394 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.395 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.438 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:51:14.438 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:51:14.438 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.438 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.441 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.441 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.483 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:51:14.483 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.483 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.483 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.526 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.526 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.528 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.528 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.529 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.571 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.571 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.571 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.572 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.572 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.572 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.572 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.572 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.572 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.572 : --rw-rw-rw-   1 none        20 Jan  4 01:35 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:35
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.572 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.572 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:51:14.572 : Changing up
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.572 : Command sent: ---> CDUP
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.574 : Reply received: 250 CWD command successful. Directory now /
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.574 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.617 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:51:14.617 : Current dir: /
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.617 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.617 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.661 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.661 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.663 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.663 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.665 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.706 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.706 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.706 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.706 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.706 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.706 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.751 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:51:14.751 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:51:14.751 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.751 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.754 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.754 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.796 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:51:14.796 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.796 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.796 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.838 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.838 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.839 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.839 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.840 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.881 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.881 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.881 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.881 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.881 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.881 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.881 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.881 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.881 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.881 : --rw-rw-rw-   1 none        20 Jan  4 01:35 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:35
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.882 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.882 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.882 : Successfully transferred passive mode
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.882 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.882 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.925 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.925 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.927 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.927 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.929 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.976 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.976 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.976 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.976 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.977 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.977 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.977 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.977 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.977 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.977 : --rw-rw-rw-   1 none        20 Jan  4 01:35 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:35
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.977 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.977 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:14.977 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:14.977 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.021 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.021 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.023 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.023 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.025 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.067 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.067 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.067 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.067 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.067 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.067 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.067 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.067 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.067 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.068 : --rw-rw-rw-   1 none        20 Jan  4 01:35 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:35
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.068 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.068 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.068 : Command sent: ---> TYPE A
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.070 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:51:15.070 : Successfully transferred ASCII mode
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.070 : Command sent: ---> TYPE I
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.072 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:51:15.072 : Successfully transferred binary mode
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.072 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.072 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.116 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.116 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.118 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.118 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.120 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.161 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.161 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.161 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.161 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.161 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.161 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.161 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.162 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.162 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.162 : --rw-rw-rw-   1 none        20 Jan  4 01:35 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:35
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.162 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.162 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FileManager] 12 Aug 2024 13:51:15.162 : Uploading file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.163 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.165 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.165 : Command sent: ---> STOR Test42.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.167 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.167 : Bytes transferred=20
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.208 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:51:15.208 : File uploaded
+DEBUG [ftpapp.TransferMonitoring] 12 Aug 2024 13:51:15.208 : This is a debug message
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.209 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.251 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.251 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.253 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.253 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.255 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.296 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.296 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.299 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.299 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.304 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.345 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:51:15.345 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.345 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.388 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.388 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.388 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.390 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.390 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.395 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.399 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.399 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.436 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.436 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.436 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.479 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.479 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.481 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.481 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.483 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.524 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:51:15.524 : File downloaded
+INFO [ftpapp.FileManager] 12 Aug 2024 13:51:15.524 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.524 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.526 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,53).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.526 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.531 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.573 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:51:15.573 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.573 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:51:15.574 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.250 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.250 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.293 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.293 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.295 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.295 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.297 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.339 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.339 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.339 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.339 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.339 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.340 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.383 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:58:51.383 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:58:51.383 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.383 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.386 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.386 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.428 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:58:51.428 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.428 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.428 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.474 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.474 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.476 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.476 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.478 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.520 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.520 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.520 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.520 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.521 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.521 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.521 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.521 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.521 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.521 : --rw-rw-rw-   1 none        20 Jan  4 01:42 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:42
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.521 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.521 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:58:51.521 : Changing up
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.521 : Command sent: ---> CDUP
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.523 : Reply received: 250 CWD command successful. Directory now /
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.523 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.565 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:58:51.565 : Current dir: /
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.565 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.565 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.608 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.608 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.610 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.610 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.612 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.653 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.653 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.653 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.653 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.653 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.653 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.696 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:58:51.696 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:58:51.696 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.696 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.699 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.699 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.742 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 13:58:51.742 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.742 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.742 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.785 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.785 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.787 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.787 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.788 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.828 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : --rw-rw-rw-   1 none        20 Jan  4 01:42 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:42
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : Successfully transferred passive mode
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.829 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.829 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.871 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.871 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.873 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.873 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.874 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.915 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : --rw-rw-rw-   1 none        20 Jan  4 01:42 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:42
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:51.916 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.917 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.960 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.960 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.962 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.962 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:51.964 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.004 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : --rw-rw-rw-   1 none        20 Jan  4 01:42 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:42
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.005 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.005 : Command sent: ---> TYPE A
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.006 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:58:52.006 : Successfully transferred ASCII mode
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.007 : Command sent: ---> TYPE I
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.008 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:58:52.008 : Successfully transferred binary mode
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.008 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.008 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.050 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.050 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.052 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.052 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.053 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.093 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : --rw-rw-rw-   1 none        20 Jan  4 01:42 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:42
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.094 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FileManager] 12 Aug 2024 13:58:52.095 : Uploading file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.095 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.097 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.097 : Command sent: ---> STOR Test42.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.098 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.098 : Bytes transferred=20
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.139 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:58:52.140 : File uploaded
+DEBUG [ftpapp.TransferMonitoring] 12 Aug 2024 13:58:52.140 : This is a debug message
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.140 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.183 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.183 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.185 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.185 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.187 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.229 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.229 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.232 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.232 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.237 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.278 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:58:52.278 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.278 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.320 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.320 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.320 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.322 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.322 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.326 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.330 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.330 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.366 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.366 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.367 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.408 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.408 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.410 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.410 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.411 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.452 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 13:58:52.452 : File downloaded
+INFO [ftpapp.FileManager] 12 Aug 2024 13:58:52.452 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.453 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.454 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,55).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.454 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.459 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.499 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 13:58:52.499 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.500 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 13:58:52.501 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:34.817 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.818 : Command sent: ---> SYST
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.819 : Reply received: 215 UNIX Type: L8
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.821 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.863 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.864 : Command sent: ---> PORT 192,168,115,53,95,238
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.865 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.865 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.867 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.908 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:34.909 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:34.909 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:34.909 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:34.909 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.910 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.951 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:22:34.951 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:22:34.951 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.952 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.954 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.954 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.996 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:22:34.996 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:34.996 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:34.997 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.040 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.040 : Command sent: ---> PORT 192,168,115,53,95,239
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.042 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.042 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.044 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.084 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.086 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.086 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.086 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.086 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.086 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.086 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.086 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.086 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.086 : --rw-rw-rw-   1 none        20 Jan  4 01:49 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.086 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.087 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:22:35.087 : Changing up
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.087 : Command sent: ---> CDUP
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.088 : Reply received: 250 CWD command successful. Directory now /
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.088 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.129 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:22:35.130 : Current dir: /
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.130 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.130 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.171 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.172 : Command sent: ---> PORT 192,168,115,53,95,240
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.173 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.173 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.175 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.215 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.216 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.216 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.216 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.216 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.216 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.258 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:22:35.258 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:22:35.258 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.258 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.260 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.260 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.302 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:22:35.302 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.302 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.303 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.344 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.345 : Command sent: ---> PORT 192,168,115,53,95,242
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.346 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.346 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.348 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.389 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.390 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : --rw-rw-rw-   1 none        20 Jan  4 01:49 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : Successfully transferred passive mode
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.391 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.392 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.434 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.434 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.437 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.437 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.439 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.481 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : --rw-rw-rw-   1 none        20 Jan  4 01:49 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.482 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.483 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.526 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.526 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.528 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.528 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.529 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.570 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.571 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.572 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.572 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.572 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.572 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.572 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.572 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.572 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.572 : --rw-rw-rw-   1 none        20 Jan  4 01:49 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.572 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.572 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.572 : Command sent: ---> TYPE A
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.574 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:22:35.574 : Successfully transferred ASCII mode
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.574 : Command sent: ---> TYPE I
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.575 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:22:35.575 : Successfully transferred binary mode
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.575 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.575 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.617 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.617 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.619 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.619 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.620 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.661 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.662 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.662 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.662 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.662 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.663 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.663 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.663 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.663 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.663 : --rw-rw-rw-   1 none        20 Jan  4 01:49 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 01:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.663 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:35.663 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FileManager] 12 Aug 2024 14:22:35.663 : Uploading file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.664 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.666 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.666 : Command sent: ---> STOR Test42.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.667 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.667 : Bytes transferred=20
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.708 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:22:35.709 : File uploaded
+DEBUG [ftpapp.TransferMonitoring] 12 Aug 2024 14:22:35.709 : This is a debug message
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.710 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.716 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.716 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.717 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.717 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.758 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.759 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.760 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.760 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.761 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.801 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.803 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.804 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.804 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.810 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.850 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:22:35.851 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.851 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.892 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.893 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.893 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.895 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.895 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.899 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.903 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.904 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.940 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.940 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.941 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.982 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.982 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.984 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.984 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:35.985 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.025 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:22:36.026 : File downloaded
+INFO [ftpapp.FileManager] 12 Aug 2024 14:22:36.026 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.026 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.027 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,57).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.028 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.032 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.073 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:22:36.073 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.074 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:22:36.074 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.002 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.003 : Command sent: ---> SYST
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.005 : Reply received: 215 UNIX Type: L8
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.007 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.051 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.051 : Command sent: ---> PORT 192,168,115,53,196,219
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.053 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.053 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.056 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.098 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.098 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.098 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.099 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.099 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.099 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.142 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:41:44.142 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:41:44.142 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.142 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.146 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.146 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.189 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:41:44.189 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.189 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.190 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.234 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.234 : Command sent: ---> PORT 192,168,115,53,196,220
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.236 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.236 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.239 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.280 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.281 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.281 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.282 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.282 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.282 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.282 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.282 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.282 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.282 : --rw-rw-rw-   1 none        20 Jan  4 02:13 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 02:13
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.282 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.282 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:41:44.283 : Changing up
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.283 : Command sent: ---> CDUP
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.285 : Reply received: 250 CWD command successful. Directory now /
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.285 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.328 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:41:44.328 : Current dir: /
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.328 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.328 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.372 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.372 : Command sent: ---> PORT 192,168,115,53,196,221
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.374 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.374 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.377 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.418 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.418 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.418 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.418 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.418 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.418 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.461 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:41:44.461 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:41:44.461 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.461 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.464 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.464 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.506 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:41:44.506 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.506 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.506 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.549 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.549 : Command sent: ---> PORT 192,168,115,53,196,222
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.551 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.551 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.554 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.595 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.596 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.596 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.596 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.596 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.596 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.596 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.596 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.596 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.596 : --rw-rw-rw-   1 none        20 Jan  4 02:13 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 02:13
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.596 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.597 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.597 : Successfully transferred passive mode
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.597 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.597 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.640 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.640 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.642 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.642 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.644 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.685 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.686 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.686 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.686 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.686 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.686 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.686 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.686 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.686 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.687 : --rw-rw-rw-   1 none        20 Jan  4 02:13 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 02:13
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.687 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.687 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.687 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.687 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.730 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.730 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.732 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.732 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.734 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.775 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : --rw-rw-rw-   1 none        20 Jan  4 02:13 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 02:13
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.776 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.777 : Command sent: ---> TYPE A
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.778 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:41:44.778 : Successfully transferred ASCII mode
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.778 : Command sent: ---> TYPE I
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.779 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:41:44.779 : Successfully transferred binary mode
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.779 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.779 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.822 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.822 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.824 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.824 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.826 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.867 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : --rw-rw-rw-   1 none        20 Jan  4 02:13 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 02:13
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:44.868 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FileManager] 12 Aug 2024 14:41:44.869 : Uploading file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.870 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.872 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.872 : Command sent: ---> STOR Test42.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.874 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.874 : Bytes transferred=20
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.915 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:41:44.915 : File uploaded
+DEBUG [ftpapp.TransferMonitoring] 12 Aug 2024 14:41:44.915 : This is a debug message
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.917 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.923 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.923 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.925 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.925 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.967 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.967 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.969 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.969 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:44.970 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.011 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.012 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.015 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.015 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.021 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.062 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:41:45.062 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.062 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.104 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.104 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.105 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.106 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.106 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.111 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.115 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.115 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.152 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.152 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.152 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.196 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.196 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.198 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.198 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.199 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.240 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:41:45.240 : File downloaded
+INFO [ftpapp.FileManager] 12 Aug 2024 14:41:45.240 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.241 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.243 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,59).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.243 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.249 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.290 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:41:45.290 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.290 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:41:45.292 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.546 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.546 : Command sent: ---> SYST
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.548 : Reply received: 215 UNIX Type: L8
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.550 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.592 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.593 : Command sent: ---> PORT 192,168,115,53,196,246
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.594 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.594 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.596 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.636 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.637 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.637 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.637 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.637 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.638 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.680 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:42:07.680 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:42:07.680 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.680 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.683 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.683 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.726 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:42:07.726 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.726 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.727 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.769 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.769 : Command sent: ---> PORT 192,168,115,53,196,248
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.771 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.771 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.772 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.812 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.814 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.814 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.815 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.815 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.815 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.815 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.815 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.815 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.815 : --rw-rw-rw-   1 none        20 Jan  4 02:32 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 02:32
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.815 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.815 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:42:07.816 : Changing up
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.816 : Command sent: ---> CDUP
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.818 : Reply received: 250 CWD command successful. Directory now /
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.818 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.860 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:42:07.861 : Current dir: /
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.861 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.861 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.904 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.904 : Command sent: ---> PORT 192,168,115,53,196,249
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.906 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.906 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.908 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.948 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.949 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.949 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.949 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:07.949 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.949 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.991 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:42:07.991 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:42:07.991 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.991 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.994 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:07.994 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.035 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 12 Aug 2024 14:42:08.036 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.036 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.036 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.077 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.077 : Command sent: ---> PORT 192,168,115,53,196,250
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.079 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.079 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.081 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.121 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : --rw-rw-rw-   1 none        20 Jan  4 02:32 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 02:32
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : Successfully transferred passive mode
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.123 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.124 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.165 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.165 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.167 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.167 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.168 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.209 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : --rw-rw-rw-   1 none        20 Jan  4 02:32 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 02:32
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.211 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.212 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.257 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.257 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.258 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.258 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.260 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.301 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : --rw-rw-rw-   1 none        20 Jan  4 02:32 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 02:32
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.302 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.303 : Command sent: ---> TYPE A
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.304 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:42:08.304 : Successfully transferred ASCII mode
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.304 : Command sent: ---> TYPE I
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.305 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:42:08.305 : Successfully transferred binary mode
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.305 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.305 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.347 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.347 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.349 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.349 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.350 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.392 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : --rw-rw-rw-   1 none        20 Jan  4 02:32 TEST42.CSV
+Name=TEST42.CSV,Size=20,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 02:32
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.393 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FileManager] 12 Aug 2024 14:42:08.393 : Uploading file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.394 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.396 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.396 : Command sent: ---> STOR Test42.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.397 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.397 : Bytes transferred=20
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.438 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:42:08.438 : File uploaded
+DEBUG [ftpapp.TransferMonitoring] 12 Aug 2024 14:42:08.439 : This is a debug message
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.440 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.445 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.445 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.446 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.447 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.489 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.489 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.491 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.491 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.492 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.534 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.536 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.537 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.537 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.542 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.584 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:42:08.584 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.584 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.627 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.628 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.628 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.630 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.630 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.634 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.638 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.638 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.674 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.675 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.675 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.718 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.718 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.719 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.719 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.720 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.761 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 12 Aug 2024 14:42:08.762 : File downloaded
+INFO [ftpapp.FileManager] 12 Aug 2024 14:42:08.762 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.762 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.764 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,60).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.764 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.769 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.810 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 12 Aug 2024 14:42:08.811 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.811 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 12 Aug 2024 14:42:08.812 : Reply received: 221 Service closing control connection.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.112 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.113 : Command sent: ---> SYST
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.114 : Reply received: 215 UNIX Type: L8
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.117 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.160 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.160 : Command sent: ---> PORT 192,168,115,53,168,168
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.162 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.162 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.164 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.205 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.205 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.205 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.205 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.206 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.206 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.248 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 14 Aug 2024 08:39:09.248 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 14 Aug 2024 08:39:09.249 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.249 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.251 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.251 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.292 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 14 Aug 2024 08:39:09.292 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.292 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.293 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.334 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.335 : Command sent: ---> PORT 192,168,115,53,168,169
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.336 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.336 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.338 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.378 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.379 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.379 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.379 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.380 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.380 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.380 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.380 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.380 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.380 : --rw-rw-rw-   1 none    455628 Jan  4 21:34 SCREENSH.JPG
+Name=SCREENSH.JPG,Size=455628,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 21:34
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.380 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.380 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.ChangeDirectory] 14 Aug 2024 08:39:09.380 : Changing up
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.380 : Command sent: ---> CDUP
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.382 : Reply received: 250 CWD command successful. Directory now /
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.382 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.423 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 14 Aug 2024 08:39:09.423 : Current dir: /
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.423 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.424 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.465 : Reply received: 257 "/" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.466 : Command sent: ---> PORT 192,168,115,53,168,171
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.467 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.467 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.469 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.509 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.510 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 Y211201
+Name=Y211201,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.510 : d-rw-rw-rw-   1 none         0 Jan 24  2024 SYSTEM~1
+Name=SYSTEM~1,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.510 : d-rw-rw-rw-   1 none         0 Jan  1 00:01 TCP-IO
+Name=TCP-IO,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 00:01
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.510 : d-rw-rw-rw-   1 none         0 Jan 24  2024 PARAMS
+Name=PARAMS,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=24-01-2024 00:00
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.510 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.551 : Reply received: 257 "/" is current directory
+INFO [ftpapp.ChangeDirectory] 14 Aug 2024 08:39:09.552 : Current dir: /
+INFO [ftpapp.ChangeDirectory] 14 Aug 2024 08:39:09.552 : Changing directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.552 : Command sent: ---> CWD Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.554 : Reply received: 250 CWD command successful. Directory now /Y211201
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.554 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.598 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.ChangeDirectory] 14 Aug 2024 08:39:09.598 : Current dir: /Y211201
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.598 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.598 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.641 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.641 : Command sent: ---> PORT 192,168,115,53,168,172
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.643 : Reply received: 200 Port Command okay.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.643 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.646 : Reply received: 125 Data connection already open; transfer starting.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.688 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.689 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.689 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.689 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.689 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.689 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.689 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.689 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.689 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.689 : --rw-rw-rw-   1 none    455628 Jan  4 21:34 SCREENSH.JPG
+Name=SCREENSH.JPG,Size=455628,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 21:34
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.689 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.690 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.690 : Successfully transferred passive mode
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.690 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.690 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.733 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.733 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.734 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.734 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.736 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.776 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : --rw-rw-rw-   1 none    455628 Jan  4 21:34 SCREENSH.JPG
+Name=SCREENSH.JPG,Size=455628,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 21:34
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.778 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.779 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.820 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.821 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.822 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.822 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.823 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.873 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.874 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.874 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.874 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.874 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.874 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.874 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.875 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.875 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.875 : --rw-rw-rw-   1 none    455628 Jan  4 21:34 SCREENSH.JPG
+Name=SCREENSH.JPG,Size=455628,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 21:34
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.875 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.875 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.875 : Command sent: ---> TYPE A
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.877 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 14 Aug 2024 08:39:09.877 : Successfully transferred ASCII mode
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.877 : Command sent: ---> TYPE I
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.879 : Reply received: 200 Command okay.
+INFO [ftpapp.FileManager] 14 Aug 2024 08:39:09.879 : Successfully transferred binary mode
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.879 : Getting current directory listing
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.879 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.925 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.925 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.927 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.927 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.929 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.970 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.970 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 .
+Name=.,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.971 : d-rw-rw-rw-   1 none         0 Jan  1 22:45 ..
+Name=..,Size=0,Permissions=d-rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=true,Linked name=null,Last modified=01-01-2024 22:45
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.971 : --rw-rw-rw-   1 none     26063 Jan  1 00:59 21120101.CSV
+Name=21120101.CSV,Size=26063,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=01-01-2024 00:59
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.971 : --rw-rw-rw-   1 none      8389 Jan  2 23:49 21120102.CSV
+Name=21120102.CSV,Size=8389,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=02-01-2024 23:49
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.971 : --rw-rw-rw-   1 none      2420 Jan  3 18:54 21120103.CSV
+Name=21120103.CSV,Size=2420,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=03-01-2024 18:54
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.971 : --rw-rw-rw-   1 none      1760 Jan  8 21:01 21120108.CSV
+Name=21120108.CSV,Size=1760,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=08-01-2024 21:01
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.971 : --rw-rw-rw-   1 none      3965 Jan  9 22:29 21120109.CSV
+Name=21120109.CSV,Size=3965,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=09-01-2024 22:29
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.971 : --rw-rw-rw-   1 none      1542 Jan  4 22:17 21120104.CSV
+Name=21120104.CSV,Size=1542,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 22:17
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.971 : --rw-rw-rw-   1 none    455628 Jan  4 21:34 SCREENSH.JPG
+Name=SCREENSH.JPG,Size=455628,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=04-01-2024 21:34
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.971 : --rw-rw-rw-   1 none       167 Jan  6 08:17 21120106.CSV
+Name=21120106.CSV,Size=167,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=06-01-2024 08:17
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:09.971 : --rw-rw-rw-   1 none       453 Jan  7 16:34 21120107.CSV
+Name=21120107.CSV,Size=453,Permissions=--rw-rw-rw-,Owner=,Group=none,Is link=false,Link count=1.Is dir=false,Linked name=null,Last modified=07-01-2024 16:34
+INFO [ftpapp.FileManager] 14 Aug 2024 08:39:09.972 : Uploading file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.972 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.974 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.974 : Command sent: ---> STOR Test42.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.976 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:09.976 : Bytes transferred=20
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.017 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 08:39:10.017 : File uploaded
+DEBUG [ftpapp.TransferMonitoring] 14 Aug 2024 08:39:10.017 : This is a debug message
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.019 : Command sent: ---> SIZE 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.024 : Reply received: 550 File Unavailable
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.025 : Command sent: ---> MDTM 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.027 : Reply received: 502 Command not implemented.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.027 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.069 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.069 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.071 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.071 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.072 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.113 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.114 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.115 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.115 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.120 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.161 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 08:39:10.162 : Downloading  file
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.162 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.203 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.204 : Started download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.204 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.206 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.206 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.210 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.214 : Bytes transferred=1500
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.214 : Bytes transferred=1542
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.250 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.250 : Completed download: 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.251 : Command sent: ---> PWD
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.292 : Reply received: 257 "/Y211201" is current directory
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.293 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.294 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.294 : Command sent: ---> LIST .
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.295 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.337 : Reply received: 226 Closing data connection. Listing complete.
+INFO [ftpapp.FileManager] 14 Aug 2024 08:39:10.337 : File downloaded
+INFO [ftpapp.FileManager] 14 Aug 2024 08:39:10.337 : File downloaded
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.338 : Command sent: ---> PASV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.339 : Reply received: 227 Entering Passive Mode (192,168,115,176,100,126).
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.339 : Command sent: ---> RETR 21120104.CSV
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.344 : Reply received: 150 File status okay; about to open data connection.
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.385 : Reply received: 226 Closing data connection. File transfer complete.
+INFO [ftpapp.FTPConnect] 14 Aug 2024 08:39:10.386 : Quitting client
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.386 : Command sent: ---> QUIT
+INFO [ftpapp.TransferMonitoring$EventListenerImpl] 14 Aug 2024 08:39:10.387 : Reply received: 221 Service closing control connection.

@@ -1,0 +1,63 @@
+
+import android.os.Environment;
+
+import com.enterprisedt.net.ftp.FTPException;
+import com.enterprisedt.net.ftp.FileTransferClient;
+import com.enterprisedt.util.debug.Level;
+import com.enterprisedt.util.debug.Logger;
+
+import java.io.File;
+import java.io.IOException;
+
+public class FileManager {
+
+    private static final Logger log = Logger.getLogger(FileManager.class);
+
+    static {
+        Logger.setLevel(Level.INFO);
+    }
+
+    /**
+     * Uploads a file from the local device to the FTP server.
+     *
+     * @param localFilePath The path to the local file on the Android device.
+     * @param remoteFilePath The path where the file will be uploaded on the FTP server.
+     */
+    public static void uploadFile(String localFilePath, String remoteFilePath) {
+        try {
+            FileTransferClient ftpClient = FTPClientManager.getInstance();
+            log.info("Uploading file: " + localFilePath + " to " + remoteFilePath);
+
+            // Set transfer type to binary to handle non-text files
+            ftpClient.setContentType(FTPTransferType.BINARY);
+
+            // Upload the file to the FTP server
+            ftpClient.uploadFile(localFilePath, remoteFilePath);
+            log.info("File uploaded successfully to " + remoteFilePath);
+        } catch (FTPException | IOException e) {
+            log.error("Error during file upload", e);
+        }
+    }
+
+    /**
+     * Uploads a file from the local device to the FTP server by writing the provided text content.
+     *
+     * @param text The text content to write to the file.
+     * @param remoteFileName The name of the file to create on the FTP server.
+     */
+    public static void uploadTextAsFile(String text, String remoteFileName) {
+        try {
+            FileTransferClient ftpClient = FTPClientManager.getInstance();
+            log.info("Uploading text content as file: " + remoteFileName);
+
+            // Set transfer type to ASCII since we are uploading text
+            ftpClient.setContentType(FTPTransferType.ASCII);
+
+            // Upload text content as a file to the FTP server
+            ftpClient.uploadStream(remoteFileName).write(text.getBytes());
+            log.info("Text content uploaded successfully as file: " + remoteFileName);
+        } catch (FTPException | IOException e) {
+            log.error("Error during file upload", e);
+        }
+    }
+}
